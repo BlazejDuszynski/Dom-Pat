@@ -4,3 +4,4 @@ const buttons = document.querySelectorAll(".container_gallery--button");
 //const nextButton = document.querySelector(".container_gallery--nextButton");
 
 console.log(buttons);
+console.log(buttons);

@@ -1,10 +1,7 @@
 .container {
-    height: 100vh;
-    width: 100vh;
-    max-width: 90%;
+    max-width: 80%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 1fr 1fr 1fr 100px;
+    grid-template-columns: repeat(3, 1fr);
     margin: auto;
     gap: 10px;
     padding: 10px;
@@ -12,21 +9,56 @@
 }
 
 .container_item {
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .container_header {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     text-align: center;
-    color: rgb(52, 105, 129);
+    color: rgb(7, 42, 44);
+    grid-template-columns: 20% 0.7fr 20%;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
+    max-height: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+}
+
+.container_header--logo {
+    cursor: pointer;
+}
+
+.container_header--nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+}
+
+.container_header--navItem {
+    margin: 0 10px;
+}
+
+.container_header--contactItem {
+    background-color: teal;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.container_header--contactItem:hover {
+    background-color: rgb(14, 172, 172);
 }
 
 .container_gallery {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
     position: relative;
 }
 
@@ -42,7 +74,7 @@
 
 .container_gallery--slide>img {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
@@ -64,13 +96,13 @@
     cursor: pointer;
     border-radius: 0.25rem;
     padding: 0 .5rem;
-    background-color: rgba(216, 200, 200, 0.1); 
+    background-color: rgba(216, 200, 200, 0.1);
     height: 100%;
 }
 
 .container_gallery--button:hover {
-    background-color: rgba(185, 158, 158, 0.1); 
-    color:rgb(255, 255, 255);
+    background-color: rgba(185, 158, 158, 0.1);
+    color: rgb(255, 255, 255);
 }
 
 .container_gallery--previousButton {

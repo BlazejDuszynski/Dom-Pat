@@ -13,8 +13,8 @@ buttons.forEach(button => {
         if (newIndex >= slides.children.length) {
             newIndex = 0
         }
-        slides.children[newIndex].classList.add("activeSlide")
-        activeSlide.classList.remove("activeSlide")
+        slides.children[newIndex].classList.add("activeSlide");
+        activeSlide.classList.remove("activeSlide");
     })
 })
 

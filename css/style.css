@@ -5,9 +5,8 @@
 }
 
 .body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
-    background: rgb(186, 254, 255);
-    background: linear-gradient(0deg, rgb(213, 249, 250) 0%, rgb(235, 241, 241) 100%);
+    background-color: rgb(233, 233, 233);
+    font-family: 'Josefin Sans', sans-serif;
 }

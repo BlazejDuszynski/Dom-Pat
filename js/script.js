@@ -1,9 +1,9 @@
-const buttons = document.querySelectorAll(".container_gallery--button");
+const buttons = document.querySelectorAll(".gallery--button");
 
 buttons.forEach(button => {
     button.addEventListener("click", () => {
-        const offset = button.className === "container_gallery--nextButton" ? 1 : -1;
-        const slides = button.closest(".container_gallery").querySelector(".container_gallery--slides");
+        const offset = button.className === "gallery--nextButton" ? 1 : -1;
+        const slides = button.closest(".gallery").querySelector(".gallery--slides");
 
         const activeSlide = slides.querySelector(".activeSlide");
         let newIndex = [...slides.children].indexOf(activeSlide) + offset;

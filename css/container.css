@@ -12,7 +12,7 @@
     margin-top: 60px;
 }
 
-.container_header {
+.header {
     display: grid;
     text-align: center;
     color: rgb(7, 42, 44);
@@ -23,23 +23,26 @@
     justify-content: space-between;
     align-items: center;
     border: 0;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
 }
 
-.container_header--logo {
+.header--logo {
     cursor: pointer;
 }
 
-.container_header--nav {
+.header--nav {
     display: grid;
     grid-template-columns: repeat(4, auto);
     align-items: center;
 }
 
-.container_header--navItem {
+.header--navItem {
     margin: 0 10px;
 }
 
-.container_header--contactItem {
+.header--contactItem {
     background-color: teal;
     color: #ffffff;
     height: 100%;
@@ -52,17 +55,18 @@
     cursor: pointer;
 }
 
-.container_header--contactItem:hover {
+.header--contactItem:hover {
     background-color: rgb(14, 172, 172);
 }
 
-.container_gallery {
-    grid-column-start: 1;
-    grid-column-end: 4;
+.gallery {
     position: relative;
+    width: 100%;
+    max-height: 90%;
+    margin-top: 5%;
 }
 
-.container_gallery--slide {
+.gallery--slide {
     position: absolute;
     inset: 0;
     opacity: 0;
@@ -72,7 +76,7 @@
     opacity: 1;
 }
 
-.container_gallery--slide>img {
+.gallery--slide>img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -80,13 +84,13 @@
     border-radius: 10px;
 }
 
-.container_gallery--slides {
+.gallery--slides {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.container_gallery--button {
+.gallery--button {
     position: absolute;
     color: rgb(199, 207, 207);
     background: none;
@@ -100,7 +104,7 @@
     height: 100%;
 }
 
-.container_gallery--textContainer {
+.gallery--textContainer {
     display: grid;
     grid-template-columns: auto auto;
     position: absolute;
@@ -114,7 +118,7 @@
     transform: translate(-50%, -50%);
 }
 
-.container_gallery--text {
+.gallery--text {
     font-size: 40px;
     background-color: black;
     opacity: 0.6;
@@ -126,11 +130,11 @@
     grid-column-end: 3;
 }
 
-.container_gallery--textContainerItem {
+.gallery--textContainerItem {
     margin-top: 20%;
 }
 
-.container_gallery--textContainerButton {
+.gallery--textContainerButton {
     border: none;
     background-color: black;
     opacity: 0.6;
@@ -140,20 +144,20 @@
     cursor: pointer;
 }
 
-.container_gallery--textContainerButton:hover {
+.gallery--textContainerButton:hover {
     background-color: rgb(46, 46, 46);
     opacity: 0.6;
 }
 
-.container_gallery--button:hover {
+.gallery--button:hover {
     background-color: rgba(185, 158, 158, 0.1);
     color: rgb(255, 255, 255);
 }
 
-.container_gallery--previousButton {
+.gallery--previousButton {
     left: 0rem;
 }
 
-.container_gallery--nextButton {
+.gallery--nextButton {
     right: 0rem;
 }

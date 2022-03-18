@@ -56,6 +56,18 @@
     gap: 7%;
 }
 
+.section__offer--container {
+    max-height: 60vh;
+    position: relative;
+}
+
+.section__offerSeeMoreButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .section__offer--item {
     max-height: 60vh;
 }
@@ -71,9 +83,13 @@
     height: 80%;
     object-fit: cover;
     object-position: center;
-    height: 90%;
     opacity: 0.9;
     border-radius: 10px;
+    position: relative;
+}
+
+.section__offer--imageSeeMoreButton {
+    position: absolute;
 }
 
 .section__offer--itemHeader {

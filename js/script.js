@@ -17,4 +17,3 @@ buttons.forEach(button => {
         activeSlide.classList.remove("activeSlide");
     })
 })
-

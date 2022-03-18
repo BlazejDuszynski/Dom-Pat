@@ -31,6 +31,7 @@
 
 .header--navItem {
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .header--contactItem {

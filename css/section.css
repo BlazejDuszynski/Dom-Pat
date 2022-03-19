@@ -80,7 +80,6 @@
 .section__offerSeeMoreButton:hover {
     opacity: 0.6;
     z-index: 1;
-    background-color: rgb(75, 187, 187);
     border-radius: 10px;
     left: 0;
     top: 50%;
@@ -97,11 +96,6 @@
     opacity: 0.9;
     border-radius: 10px;
     position: relative;
-}
-
-.section__offer--image:hover {
-    z-index: 0;
-    opacity: 0.1;
 }
 
 .section__offer--item {

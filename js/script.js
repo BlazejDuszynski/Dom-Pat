@@ -17,3 +17,11 @@ buttons.forEach(button => {
         activeSlide.classList.remove("activeSlide");
     })
 })
+
+const seeMoreButtons = document.querySelectorAll(".section__offerSeeMoreButton");
+
+seeMoreButtons.forEach(button => {
+    button.addEventListener("mouseover", () => {
+        button.innerHTML += "";
+    })
+})

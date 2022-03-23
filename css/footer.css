@@ -1,4 +1,6 @@
 .footer {
-    background-color: rgb(46, 161, 161);
+    background-color: rgb(9, 61, 61);
     height: 30vh;
+    margin-top: 5%;
+    color: aliceblue;
 }

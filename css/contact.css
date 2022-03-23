@@ -18,8 +18,12 @@
     gap: 5em;
 }
 
+.contact__main--text {
+    letter-spacing: 0.05em
+}
+
 .contact__main--input {
-    box-shadow: 10px 10px rgb(184, 174, 174);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
     align-items: center;
 }
 
@@ -27,5 +31,6 @@
     width: 90%;
     margin: 5px auto;
     padding: 5px;
-
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
 }

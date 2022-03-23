@@ -1,0 +1,31 @@
+.contact {
+    width: 60%;
+    margin: auto;
+    height: auto;
+    box-shadow: inset;
+}
+
+.contact__header {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+}
+
+.contact__main--input {
+    box-shadow: 10px 10px rgb(184, 174, 174);
+    align-items: center;
+}
+
+.contact__main--inputItem {
+    width: 90%;
+    margin: 5px auto;
+    padding: 5px;
+
+}

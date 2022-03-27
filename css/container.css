@@ -1,37 +1,50 @@
+
+
 .container_item {
     margin-top: 60px;
+}
+
+.image {
+    width: 250px;
+    height: 70px;
 }
 
 .header {
     display: grid;
     text-align: center;
     color: rgb(7, 42, 44);
-    grid-template-columns: 20% 0.7fr 20%;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    max-height: 10px;
-    justify-content: space-between;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
     border: 0;
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     margin-top: 3%;
     margin-bottom: 5%;
 }
 
+.header__text {
+    font-size: 30px;
+    text-align: center;
+}
+
 .header--logo {
     cursor: pointer;
+    text-align: left;
+    width: auto;
 }
 
 .header--nav {
     display: grid;
     grid-template-columns: repeat(4, auto);
     align-items: center;
+    margin: 0 auto;
+    width: 40%;
 }
 
 .header--navItem {
-    margin: 0px 10px;
     cursor: pointer;
+    margin: 0 15px;
+    text-align: center;
 }
 
 .header--navItem:hover {
@@ -53,6 +66,17 @@
 
 .header--contactItem:hover {
     background-color: rgb(14, 172, 172);
+}
+
+.fa-nav {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font: normal normal normal 20px/1 FontAwesome;
+    margin: 1px;
 }
 
 .section {
@@ -85,7 +109,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     border-radius: 10px;
 }
 

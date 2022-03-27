@@ -33,16 +33,17 @@
 }
 
 .contact__main--form {
-
+    width: 90%;
 }
 
 .contact__main--formHeader {
     font-size: 30px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .contact__main--formItem {
-    width: 90%;
+    width: 100%;
     margin: 5px auto;
     padding: 5px;
     font-family: 'Josefin Sans', sans-serif;

@@ -1,5 +1,5 @@
 .contact {
-    width: 60%;
+    width: 80%;
     margin: auto;
     height: auto;
     box-shadow: inset;
@@ -7,7 +7,7 @@
 
 .contact__header {
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 55px;
     text-align: center;
     font-size: 40px;
 }
@@ -22,15 +22,45 @@
     letter-spacing: 0.05em
 }
 
-.contact__main--input {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    align-items: center;
+.contact__main--textHeader {
+    font-size: 30px;
 }
 
-.contact__main--inputItem {
+
+.contact__main--textItem {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contact__main--form {
+
+}
+
+.contact__main--formHeader {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact__main--formItem {
     width: 90%;
     margin: 5px auto;
     padding: 5px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+}
+
+.contact__main--formButton {
+    background-color: rgb(14, 63, 75);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact__main--formButton:hover {
+    background-color: rgb(38, 111, 129);
+}
+
+.contact__main--formTextarea {
+    resize: none;
 }

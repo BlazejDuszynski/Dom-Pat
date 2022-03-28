@@ -25,6 +25,8 @@
 .header__text {
     font-size: 30px;
     text-align: center;
+    padding: 10px;
+    padding-bottom: 0;
 }
 
 .header--logo {
